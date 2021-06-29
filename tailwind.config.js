@@ -39,12 +39,6 @@ module.exports = {
         "448": "44.8rem",
         "483": "48.3rem"
       },
-      placeholderColor: {
-        pri: "#05a081",
-        sec: "#232a34",
-        tet: "#0963e7",
-        priWhite: "#ffffff"
-      },
       borderColor: theme => ({
         ...theme("colors"),
         DEFAULT: theme("colors.gray.300", "currentColor"),
